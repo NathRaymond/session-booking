@@ -39,7 +39,7 @@
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
-            <p>3017 Edgehill Drive Los Angeles, CA 90018</p>
+            <!-- <p>3017 Edgehill Drive Los Angeles, CA 90018</p> -->
             <p class="mt-4"><strong>Phone:</strong> <span>+1 (504) 335-5668</span></p>
             <p><strong>Email:</strong> <span>Ezenwanyi@gmail.com</span></p>
         </div>

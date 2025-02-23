@@ -357,14 +357,7 @@
         <div class="row gy-4">
 
             <div class="col-lg-4">
-                <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <i class="bi bi-geo-alt flex-shrink-0"></i>
-                    <div>
-                        <h3>Address</h3>
-                        <p>3017 Edgehill Drive Los Angeles, CA 90018</p>
-                    </div>
-                </div><!-- End Info Item -->
-
+                
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                     <i class="bi bi-telephone flex-shrink-0"></i>
                     <div>
