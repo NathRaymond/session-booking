@@ -12,16 +12,10 @@
 </style>
 @endsection
 <!-- Hero Section -->
-<section id="hero" class="hero section dark-background">
-    <div class="container text-center" data-aos="fade-up" data-aos-delay="100" style="padding: 20px;">
-        <div class="row justify-content-center align-items-center" style="min-height: 75vh;">
-            <div class="col-12 d-flex justify-content-center">
-                <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="" data-aos="fade-in" 
-                     style="width: 100%; max-width: 300px; height: auto; border-radius: 50%; object-fit: cover;">
-            </div>
-        </div>
-    </div>
+<section id="hero" class="dark-background" style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+    <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="" data-aos="fade-in" style="max-width: 100%; height: auto; object-fit: contain;">
 </section>
+
 
 <!-- About Section -->
 <section id="about" class="about section">
@@ -357,7 +351,7 @@
         <div class="row gy-4">
 
             <div class="col-lg-4">
-                
+
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                     <i class="bi bi-telephone flex-shrink-0"></i>
                     <div>
