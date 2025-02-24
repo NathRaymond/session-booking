@@ -9,24 +9,71 @@
         display: block;
         margin: 0 auto;
     }
+
+    .get-in-touch {
+        background-color: #f8f7f9;
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .get-in-touch h2 {
+        font-size: 2.5rem;
+        color: #C395E4;
+        font-weight: bold;
+    }
+
+    .get-in-touch p {
+        font-size: 1.1rem;
+        color: #333;
+        margin-top: 10px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .info-item {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .php-email-form button {
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .php-email-form button:hover {
+        background-color: #9e78d3;
+    }
+
 </style>
 @endsection
 <!-- Hero Section -->
 <section id="hero" class="dark-background" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; text-align: center; padding: 20px; width: 100vw; box-sizing: border-box;">
-    <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 90%; height: auto; object-fit: contain; ">
+    <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 90%; height: auto; object-fit: contain;">
     <div style="max-width: 600px; margin-top: 20px;">
-        <!-- <h1 style="font-size: 2.5rem; color: #fff; margin-bottom: 10px;">Elevate Your Vision with Eze Nwanyi Sessions</h1> -->
+        <h1 style="font-size: 2.5rem; color: #fff; margin-bottom: 10px;">Elevate Your Vision with Eze Nwanyi Sessions</h1>
         <p style="font-size: 1.2rem; color:  #f7ec0b; line-height: 1.6;">Exclusive, one-on-one consultations tailored for distinguished leaders and visionaries worldwide.</p>
         <a href="#" style="display: inline-block; background-color: #d4af37; color: #000; padding: 12px 30px; font-size: 1rem; font-weight: bold; text-decoration: none; border-radius: 30px; margin-top: 20px; transition: background-color 0.3s ease;">Book Your Session</a>
     </div>
 </section>
 <!-- About Section -->
 <section id="about" class="about section">
+
     <div class="container">
+
         <div class="row gy-3">
+
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <img src="{{asset('assets/img/appointement1.webp')}}" alt="" class="img-fluid" style="height: 510px; object-fit: cover;">
             </div>
+
+
             <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
                 <div class="about-content ps-0 ps-lg-3">
                     <h3 style="text-align: center; font-size:19px"> Empowerment and Growth: Transformative Coaching for Leaders and Innovators </h3>
@@ -291,116 +338,86 @@
 
     </div>
 
-</section>
-<section id="services" class="services section light-background">
+</section><!-- /Testimonials Section -->
 
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Get in Touch</h2>
-        <p class="lead" style="font-size: 1.2rem; color: #7f8c8d; max-width: 800px; margin: 0 auto; line-height: 1.6;">
-            For any inquiries, support, or to schedule your session, please feel free to reach out to us. Our team is committed to providing you with world-class service.
-        </p>
-    </div><!-- End Section Title -->
-    <div class="container">
-        <div class="row gy-4">
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item" style="background-color: #C395E4; box-shadow: 0 4px 10px rgba(100, 50, 150, 0.4);">
-                    <a href="#" class="stretched-link">
-                        <h3 style="color:white">For Session Bookings</h3>
-                    </a>
-                    <p style="color:white">Interested in scheduling a session
-                        with our renowned experts? You can directly book your preferred date and time
-                        through our secure booking system. If you require
-                        further details or assistance, don’t hesitate to
-                        reach out.</p>
-                </div>
-            </div><!-- End Service Item -->
+<section id="contact" class="contact section" style="padding: 60px 0; background-color: #f8f7f9; text-align: center;">
+    <h2 style="font-size: 2.5rem; color: #C395E4; font-weight: bold; margin-bottom: 20px;">Get in Touch</h2>
+    <p style="font-size: 1.1rem; color: #333; margin: 10px auto 40px; max-width: 500px;">
+        For any inquiries, support, or to schedule your session, please feel free to reach out to us. Our team is committed to providing you with world-class service.
+    </p>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-item" style="background-color: #C395E4; box-shadow: 0 4px 10px rgba(150, 75, 200, 0.4);">
-                    <a href="#" class="stretched-link">
-                        <h3 style="color:white">For General Inquiries</h3>
-                    </a>
-                    <p style="color:white">Have a question about our services, platform,
-                        or expert availability? We are happy to assist you.</p>
-                </div>
-            </div><!-- End Service Item -->
+    <div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 20px; margin-top: 30px;">
+        <!-- Session Bookings -->
+        <div class="contact-card" style="background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; width: 32%; min-width: 280px; text-align: center;">
+            <h3 style="font-size: 1.2rem; font-weight: bold; color: #C395E4;">For Session Bookings</h3>
+            <p style="font-size: 1rem; color: #555; margin-top: 15px;">Interested in scheduling a session with our renowned experts? You can directly book your preferred date and time through our secure booking system. If you require further details or assistance, don’t hesitate to reach out.</p>
+            <a href="#" style="color: #C395E4; font-size: 1.1rem; text-decoration: none; margin-top: 20px; display: inline-block;">Book Now</a>
+        </div>
 
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <div class="service-item" style="background-color: #C395E4; box-shadow: 0 4px 10px rgba(200, 100, 250, 0.4);">
-                    <a href="#" class="stretched-link">
-                        <h3 style="color:white">For Business & Partnership Opportunities</h3>
-                    </a>
-                    <p style="color:white">If you are interested in exploring partnership
-                        opportunities or collaborations, please contact our
-                        business development team.</p>
-                </div>
-            </div>
-        </div><!-- End Row -->
+        <!-- General Inquiries -->
+        <div class="contact-card" style="background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; width: 32%; min-width: 280px; text-align: center;">
+            <h3 style="font-size: 1.2rem; font-weight: bold; color: #C395E4;">For General Inquiries</h3>
+            <p style="font-size: 1rem; color: #555; margin-top: 15px;">Have a question about our services, platform, or expert availability? We are happy to assist you.</p>
+            <a href="#" style="color: #C395E4; font-size: 1.1rem; text-decoration: none; margin-top: 20px; display: inline-block;">Contact Us</a>
+        </div>
 
+        <!-- Business Opportunities -->
+        <div class="contact-card" style="background-color: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 30px; width: 32%; min-width: 280px; text-align: center;">
+            <h3 style="font-size: 1.2rem; font-weight: bold; color: #C395E4;">For Business & Partnership Opportunities</h3>
+            <p style="font-size: 1rem; color: #555; margin-top: 15px;">If you are interested in exploring partnership opportunities or collaborations, please contact our business development team.</p>
+            <a href="#" style="color: #C395E4; font-size: 1.1rem; text-decoration: none; margin-top: 20px; display: inline-block;">Get in Touch</a>
+        </div>
     </div>
-</section>
-<section id="contact" class="contact section">
-    <div class="container" data-aos="fade" data-aos-delay="100">
 
+
+
+    <div class="container" style="margin-top: 60px;">
         <div class="row gy-4">
-
             <div class="col-lg-4">
-                
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-                    <i class="bi bi-telephone flex-shrink-0"></i>
+                    <i class="bi bi-telephone flex-shrink-0" style="font-size: 2rem; color: #C395E4;"></i>
                     <div>
                         <h3>Call Us</h3>
                         <p>+1 (504) 335-5668</p>
                     </div>
-                </div><!-- End Info Item -->
-
+                </div>
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-                    <i class="bi bi-envelope flex-shrink-0"></i>
+                    <i class="bi bi-envelope flex-shrink-0" style="font-size: 2rem; color: #C395E4;"></i>
                     <div>
                         <h3>Email Us</h3>
                         <p>Ezenwanyi@gmail.com</p>
                     </div>
-                </div><!-- End Info Item -->
-
+                </div>
             </div>
 
             <div class="col-lg-8">
                 <form action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                     <div class="row gy-4">
-
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                         </div>
-
-                        <div class="col-md-6 ">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                         </div>
-
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                         </div>
-
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                         </div>
-
                         <div class="col-md-12 text-center">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                            <button type="submit">Send Message</button>
+                            <button type="submit" style="background-color: #C395E4; color: white; padding: 12px 24px; border-radius: 5px; border: none; transition: background-color 0.3s;">Send Message</button>
                         </div>
-
                     </div>
                 </form>
-            </div><!-- End Contact Form -->
-
+            </div>
         </div>
-
     </div>
-
 </section>
+
+
 
 @endsection
