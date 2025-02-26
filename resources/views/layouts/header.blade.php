@@ -2,7 +2,7 @@
 
     <a href="#" class="logo d-flex align-items-center">
         <!-- <img src="{{ asset("assets/img/EZE_NWANYI_LOGO.png") }}" style="width: 100px; max-height:100px"> -->
-        <!-- <h1 class="sitename">Booking Session</h1> -->
+        <h1 class="sitename">ENTER</h1>
     </a>
 
     <nav id="navmenu" class="navmenu">
