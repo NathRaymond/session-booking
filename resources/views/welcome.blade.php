@@ -14,11 +14,7 @@
 <!-- Hero Section -->
 <section id="hero" class="dark-background" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; text-align: center; padding: 20px; width: 100vw; box-sizing: border-box;">
     <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 90%; height: auto; object-fit: contain; ">
-    <div style="max-width: 600px; margin-top: 20px;">
-        <!-- <h1 style="font-size: 2.5rem; color: #fff; margin-bottom: 10px;">Elevate Your Vision with Eze Nwanyi Sessions</h1> -->
-        <p style="font-size: 1.2rem; color:  #f7ec0b; line-height: 1.6;">Exclusive, one-on-one consultations tailored for distinguished leaders and visionaries worldwide.</p>
-        <a href="#" style="display: inline-block; background-color: #d4af37; color: #000; padding: 12px 30px; font-size: 1rem; font-weight: bold; text-decoration: none; border-radius: 30px; margin-top: 20px; transition: background-color 0.3s ease;">Book Your Session</a>
-    </div>
+   
 </section>
 <!-- About Section -->
 <section id="about" class="about section">
@@ -346,7 +342,7 @@
         <div class="row gy-4">
 
             <div class="col-lg-4">
-                
+
                 <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                     <i class="bi bi-telephone flex-shrink-0"></i>
                     <div>
@@ -366,33 +362,27 @@
             </div>
 
             <div class="col-lg-8">
-                <form action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <form action="#" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                    @csrf
                     <div class="row gy-4">
-
                         <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                         </div>
-
-                        <div class="col-md-6 ">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
                         </div>
-
                         <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
                         </div>
-
                         <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
                         </div>
-
                         <div class="col-md-12 text-center">
-                            <div class="loading">Loading</div>
+                            <!-- <div class="loading">Loading</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-
+                            <div class="sent-message">Your message has been sent. Thank you!</div> -->
                             <button type="submit">Send Message</button>
                         </div>
-
                     </div>
                 </form>
             </div><!-- End Contact Form -->
