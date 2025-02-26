@@ -7,7 +7,7 @@
 
     <nav id="navmenu" class="navmenu">
         <ul>
-            <li><a href="/" class="active" style="font-size: 17px; color: 	#800020 !important;">Home</a></li>
+            <li><a href="/" class="active" style="font-size: 17px; color: 	#800020 !important;">HOME</a></li>
             <div class="col-lg-8">
                 <a href="#" class="btn-get-started" style="height: 40px; width: 100px; border-radius: 25px; border: 2px solid white; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #800020 !important;">ENTER</a>
 
