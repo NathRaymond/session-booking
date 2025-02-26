@@ -16,7 +16,16 @@
     <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 105%; height: auto; object-fit: contain; ">
 
 </section>
+<section id="services" class="services section light-background">
 
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Get in Touch</h2>
+        <p class="lead" style="font-size: 1.2rem; color: #7f8c8d; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            For any inquiries, support, or to schedule your session, please feel free to reach out to us. Our team is committed to providing you with world-class service.
+        </p>
+    </div>
+</section>
 <section id="contact" class="contact section">
     <div class="container" data-aos="fade" data-aos-delay="100">
 
