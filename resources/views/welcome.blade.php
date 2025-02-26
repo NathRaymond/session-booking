@@ -2,13 +2,13 @@
 @section("contents")
 @section("headlinks")
 <style>
-    /* .responsive-logo {
+    .responsive-logo {
         width: 100%;
         max-width: 450px;
         height: auto;
         display: block;
         margin: 0 auto;
-    } */
+    }
 </style>
 @endsection
 <!-- Hero Section -->
