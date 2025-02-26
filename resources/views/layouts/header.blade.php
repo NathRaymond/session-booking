@@ -10,7 +10,7 @@
             <li><a href="/" class="active" style="font-size: 17px; color: 	#800020 !important;">Home</a></li>
             <div class="col-lg-8">
                 <!-- <a href="{{route("session-page")}}" class="btn-get-started" style="height: 40px;border-radius:25px;border: 2px solid white; ">Book a Session</a> -->
-                <a href="#" class="btn-get-started" style="height: 40px;border-radius:25px;border: 2px solid white; ">Book a Session</a>
+                <a href="#" class="btn-get-started" style="height: 40px;border-radius:25px;border: 2px solid white; ">ENTER</a>
             </div>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
