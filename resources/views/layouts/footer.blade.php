@@ -2,7 +2,7 @@
     <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
             <a href="#" class="logo d-flex align-items-center">
-                <span class="sitename" style="font-size: 20px;">Booking Portal</span>
+                <span class="sitename" style="font-size: 20px;">Booking Session</span>
             </a>
             <p>Step into the world of visionary leadership with Eze Nwanyi,
                 the esteemed Executive Director. With a wealth of experience and a passion
@@ -48,8 +48,8 @@
 </div>
 
 <div class="container copyright text-center mt-4">
-    <p>© <span>Copyright</span> <strong class="px-1 sitename">Booking Portal</strong> <span>All Rights Reserved</span></p>
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Booking Session</strong> <span>All Rights Reserved</span></p>
     <!-- <div class="credits">
-        Designed by <a href="#">Booking Portal</a>
+        Designed by <a href="#">Booking Session</a>
     </div> -->
 </div>

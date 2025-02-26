@@ -1,19 +1,19 @@
 @extends("layouts.master")
 @section("contents")
 @section("headlinks")
-<style>
+<!-- <style>
     .responsive-logo {
         width: 100%;
-        max-width: 450px;
+        max-width: 500px !important;
         height: auto;
         display: block;
         margin: 0 auto;
     }
-</style>
+</style> -->
 @endsection
 <!-- Hero Section -->
 <section id="hero" class="dark-background" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; text-align: center; padding: 20px; width: 100vw; box-sizing: border-box;">
-    <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 90%; height: auto; object-fit: contain; ">
+    <img src="{{asset('assets/img/EZE_NWANYI_LOGO.png')}}" alt="Eze Nwanyi Logo" data-aos="fade-in" style="max-width: 105%; height: auto; object-fit: contain; ">
    
 </section>
 <!-- About Section -->
